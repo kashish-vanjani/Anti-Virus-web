@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <header>
+            <img src="logo.png" alt="Nimbus-Box Logo" class="logo">
+        </header>
+        <main>
+            <h1>Sign In</h1>
+            <button class="btn google-btn">
+                <img src="/images/icons8-google-logo.svg" alt="Google Logo" class="icon">
+                Continue with Google
+            </button>
+            <button class="btn microsoft-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo" class="icon">
+                Continue with Microsoft
+            </button>
+            <div class="divider">Or</div>
+            <form>
+                <input type="email" placeholder="Email" class="input-field" required>
+                <div class="password-wrapper">
+                    <input type="password" placeholder="Password" class="input-field password-field" required>
+                    <span class="toggle-password">
+                        <img src="https://cdn-icons-png.flaticon.com/512/159/159604.png" alt="Show Password" class="eye-icon">
+                    </span>
+                </div>
+                <button type="submit" class="btn submit-btn">Sign In</button>
+            </form>
+            <a href="#" class="link">Sign in with one-time passcode</a>
+            <a href="#" class="link">Reset your password</a>
+        </main>
+    </div>
+
+    <!-- Feedback Button -->
+    <div class="feedback">
+        <a href="#" class="feedback-btn">Feedback</a>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Notice</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+        <p>© 2024 Nimbus-Box, LLC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

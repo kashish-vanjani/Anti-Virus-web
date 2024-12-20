@@ -1,0 +1,183 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main container styling */
+.login-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    margin: 80px auto 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.google-btn {
+    background: #ffffff;
+    border: 1px solid #dadce0;
+    color: #333333;
+}
+
+.microsoft-btn {
+    background: #f3f3f3;
+    border: 1px solid #e0e0e0;
+    color: #333333;
+}
+
+.google-btn .icon,
+.microsoft-btn .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Divider */
+.divider {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+/* Input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.eye-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Submit button */
+.submit-btn {
+    background: #0078d4;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background: #005bb5;
+}
+
+/* Links */
+.link {
+    display: block;
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+}
+
+footer ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0 0;
+    color: #aaaaaa;
+    font-size: 0.8rem;
+}
+
+/* Feedback button */
+.feedback {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+}
+
+.feedback-btn {
+    background: #0078d4;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.feedback-btn:hover {
+    background: #005bb5;
+}
